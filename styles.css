@@ -1,10 +1,20 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-header {
-  background-color: grey;
+.header-container {
+  background-color: #2b2b2b;
+  display: grid;
+  grid-auto-columns: 70% 30% / 40% 60%;
   padding: 15px;
+  color: #ffffff;
+}
+
+.body-container {
+  background-color: #efefef;
+  width:100%;
+  height: 100%;
 }
 
 .admin-username {
@@ -16,18 +26,213 @@ header {
   align-items: center;
 }
 
+h1 {
+  float: right;
+}
+
 h2 {
-  margin: 20px;
+  padding: 20px;
+  margin: 0;
 }
 
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 10px;
-  margin: 15px;
+  grid-gap: 15px;
+  margin: 2%;
+  color: #686868;
+}
+
+.name {
+  margin-bottom: 0;
+}
+
+.date {
+  font-size: .75em;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  background-color: #efefef; 
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: .75em;
+  word-wrap: break-word;
+  text-decoration: none;
+  color: #686868;
+}
+
+.link:hover {
+  color: #29b5fC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: .75em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.playlist-name {
+  margin-top: 0;
+}
+
+.attachment-number {
+  color: #29b5fC;
+  font-size: 2.5em;
+  margin: 0;
 }
 
 .card {
-  border: 1px solid grey;
-  padding: 15px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  transition: all .2s ease-in-out;
+}
+
+.card-pic {
+  background-size: cover;
+  width: 100%;
+  height:150px;
+}
+
+.arrow-icon {
+  width: 60px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.arrow-icon:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
+} 
+
+.views {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: .75em;
+  float: right;
+
+}
+
+.view-number {
+  color: #ffffff;
+  font-size: 1.5em;
+  float: right;
+}
+
+.recipient1 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot1.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient1 {
+  background-image: url(images/headshot1.jpg);
+}
+
+.recipient2 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot14.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient2 {
+  background-image: url(images/headshot14.jpg);
+}
+
+.recipient3 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot3.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient3 {
+  background-image: url(images/headshot3.jpg);
+}
+
+.recipient4 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot17.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient4 {
+  background-image: url(images/headshot17.jpg);
+}
+
+.recipient5 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot9.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient5 {
+  background-image: url(images/headshot9.jpg);
+}
+
+.recipient6 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot4.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient6 {
+  background-image: url(images/headshot4.jpg);
+}
+
+.recipient7 {
+    background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot13.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient7 {
+  background-image: url(images/headshot13.jpg);
+}
+
+.recipient8 {
+  background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot2.jpg);
+  background-size: cover;
+}
+
+.card:hover .recipient8 {
+  background-image: url(images/headshot2.jpg);
+}
+
+.card-text {
+  margin: 15px;
 }
