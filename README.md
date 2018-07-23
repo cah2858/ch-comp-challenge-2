@@ -12,3 +12,4 @@ The static comp challenge is a series of three challenges to keep you working th
 ![static-comp-challenge-2](https://user-images.githubusercontent.com/36767936/43057753-3cc7055a-8e01-11e8-9a19-83c72475b6a1.jpg)
 
 ## My Version: 
+![static-comp-challenge-2](https://user-images.githubusercontent.com/36767936/43057854-c67158be-8e01-11e8-8e73-1793da511f39.jpg)
