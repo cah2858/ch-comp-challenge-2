@@ -5,64 +5,63 @@ body {
 
 .header-container {
   background-color: #2b2b2b;
+  color: #ffffff;
   display: grid;
   grid-template-columns: 72% 28%;
   grid-template-rows: repeat(2, 1fr);
-  color: #ffffff;
   height: 175px;
 }
 
 .body-container {
   background-color: #efefef;
-  width:100%;
   height: 100%;
+  width:100%;
 }
 
 .admin {
-  grid-area: 1 / 2 / 2 / 2;
-  margin: 0 0 30px 0;
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
-  cursor: pointer;
+  display: flex;
+  grid-area: 1 / 2 / 2 / 2;
+  justify-content: flex-end;
+  margin: 0 0 30px 0;
 }
 
 .admin-username {
-  font-size: 1em;
   color: #29b5fC;
+  font-size: 1em;
 }
 
 .admin-username:hover {
   color: #ffffff;
-  text-decoration: underline;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .admin-icon {
-  width: 1.6em;
   height: 1.6em;
   margin: 0 10px;
+  width: 1.6em;
 }
 
 .down-icon {
-  width: 1em;
   height:1em;
   margin: 0 20px 0 10px;
+  width: 1em;
 }
 
 .logo {
-  grid-area: 2 / 2 / span 1 / span 1;
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
+  display: flex;
+  grid-area: 2 / 2 / span 1 / span 1;
+  justify-content: flex-end;
   padding: 0 20px 20px 0;
 }
 
 .logo-text {
-  margin: 0 7px 0 0;
   display: flex;
-  justify-content: flex-end;
   font-size: 5em;
+  justify-content: flex-end;
+  margin: 0 7px 0 0;
 }
 
 .logo-text:hover {
@@ -70,8 +69,8 @@ body {
 }
 
 .logo-icon {
-  width: 4em;
   height: 4em;
+  width: 4em;
 }
 
 .logo-icon:hover {
@@ -79,104 +78,102 @@ body {
 }
 
 .nav-bar-container {
+  display: flex;
   grid-area: 2 / 1 / span 1 / span 1;
   margin: 0 20px;
-  display: flex;
   padding: 0;
 }
 
 .nav-bar-li {
-  list-style-type: none;
-  display: inline-block;
-  margin-right: 30px;
-  font-size: 1.3em;
   color: #868686;
+  display: inline-block;
+  font-size: 1.3em;
+  list-style-type: none;
+  margin-right: 30px;
 }
 
 .nav-playlists {
-  display: flex;
   align-items: center;
   cursor: pointer;
+  display: flex;
 }
 
 .nav-bar-li:hover {
   color: #ffffff;
-  text-decoration: underline;
   cursor: pointer;
- } 
+  text-decoration: underline;
+} 
 
 .nav-icon {
-  width: 1.7em;
   height: 1.7em;
   margin: 0 10px 0 0;
   padding: 0 0 3px 0;
+  width: 1.7em;
 }
 
 .nav-videos {
-  display: flex;
   align-items: center;
   cursor: pointer;
+  display: flex;
 }
 
 .shares {
-  padding: 20px 0 0 0;
-  font-size: 2em;
   color: #4d4d4d;
+  font-size: 2em;
   margin: 0 20px;
+  padding: 20px 0 0 0;
 }
 
 .nav-shares {
-  display: flex;
   align-items: center;
-  cursor: pointer;
+  display: flex;
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 15px;
-  margin: 20px;
   color: #686868;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 20px;
 }
 
 .name {
-  margin-bottom: 0;
   font-size: 1.9em;
+  margin-bottom: 0;
 }
 
 .date {
+  color: #7b7b7b;
   font-size: 1em;
   margin-top: 5px;
   padding: 0;
-  color: #7b7b7b;
 }
 
 .link {
   background-color: #efefef; 
-  padding: 15px;
-  margin: 25px 0;
-  font-size: 1em;
-  word-wrap: break-word;
-  text-decoration: none;
   color: #686868;
+  font-size: 1em;
+  margin: 25px 0;
+  padding: 15px;
+  text-decoration: none;
+  word-wrap: break-word;
 }
 
 .link:hover {
   color: #29b5fC;
-  text-decoration: underline;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 h4 {
   font-size: 1em;
-  text-transform: uppercase;
   margin: 30px 0 0 0;
+  text-transform: uppercase;
 }
 
 .playlist-name {
-  margin: 0;
   font-size: 1.5em
-
+  margin: 0;
 }
 
 .attachment-number {
@@ -186,27 +183,27 @@ h4 {
 }
 
 .card {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
+  cursor: pointer;
   transform: scale(1.02);
   transition: all .2s ease-in-out;
-  cursor: pointer;
 }
 
 .card-pic {
   background-size: cover;
-  height: 150px;
   display: flex;
+  height: 150px;
   justify-content: space-between;
 }
 
 .arrow-icon {
-  width: 60px;
   height: 60px;
   margin: 15px;
+  width: 60px;
 }
 
 .arrow-icon:hover {
@@ -216,25 +213,24 @@ h4 {
 } 
 
 .views {
-  margin: 15px;
   align-content: center;
+  margin: 15px;
 }
 
 .views-text {
   color: #ffffff;
-  text-transform: uppercase;
+  display: block;
   font-size: .75em;
   margin: 0;
-  display: block;
+  text-transform: uppercase;
 }
 
 .view-number {
   color: #ffffff;
+  display: block;
   font-size: 1.7em;
   margin: 0;
   padding-left: 3px;
-  display: block;
-
 }
 
 .card:hover {
@@ -242,7 +238,7 @@ h4 {
 }
 
 .recipient1 {
-    background: 
+  background: 
     linear-gradient(
       rgba(56, 56, 56, .6),
       rgba(56, 56, 56, .6)),
@@ -257,10 +253,10 @@ h4 {
 
 .recipient2 {
   background: 
-  linear-gradient(
-    rgba(56, 56, 56, .6),
-    rgba(56, 56, 56, .6)),
-  url(images/headshot14.jpg);
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot14.jpg);
   background-position: 45% 20%;
   background-size: cover;
 }
@@ -271,10 +267,10 @@ h4 {
 
 .recipient3 {
   background: 
-  linear-gradient(
-    rgba(56, 56, 56, .6),
-    rgba(56, 56, 56, .6)),
-  url(images/headshot3.jpg);
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot3.jpg);
   background-position: 45% 20%;
   background-size: cover;
 }
@@ -284,7 +280,7 @@ h4 {
 }
 
 .recipient4 {
-    background: 
+  background: 
     linear-gradient(
       rgba(56, 56, 56, .6),
       rgba(56, 56, 56, .6)),
@@ -299,10 +295,10 @@ h4 {
 
 .recipient5 {
   background: 
-  linear-gradient(
-    rgba(56, 56, 56, .6),
-    rgba(56, 56, 56, .6)),
-  url(images/headshot9.jpg);
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot9.jpg);
   background-position: 45% 10%;
   background-size: cover;
 }
@@ -313,10 +309,10 @@ h4 {
 
 .recipient6 {
   background: 
-  linear-gradient(
-    rgba(56, 56, 56, .6),
-    rgba(56, 56, 56, .6)),
-  url(images/headshot4.jpg);
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot4.jpg);
   background-position: 45% 30%;
   background-size: cover;
 }
@@ -327,10 +323,10 @@ h4 {
 
 .recipient7 {
   background: 
-  linear-gradient(
-    rgba(56, 56, 56, .6),
-    rgba(56, 56, 56, .6)),
-  url(images/headshot13.jpg);
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot13.jpg);
   background-position: 45% 15%;
   background-size: cover;
 }
@@ -340,11 +336,11 @@ h4 {
 }
 
 .recipient8 {
-background: 
-  linear-gradient(
-    rgba(56, 56, 56, .6),
-    rgba(56, 56, 56, .6)),
-  url(images/headshot2.jpg);
+  background: 
+    linear-gradient(
+      rgba(56, 56, 56, .6),
+      rgba(56, 56, 56, .6)),
+    url(images/headshot2.jpg);
   background-position: 45% 10%;
   background-size: cover;
 }
@@ -358,7 +354,7 @@ background:
 }
 
 @media only screen and (max-width: 969px) {
- .header-container {
+  .header-container {
     grid-template-columns: 100%;
     grid-template-rows: repeat(2, 1fr);
     padding: 0 20px;
@@ -373,11 +369,11 @@ background:
     align-items: center;
   }
 
-   .logo-text {
+  .logo-text {
     font-size: 4em;
   }
 
-   .logo-icon {
+  .logo-icon {
     width: 3em;
   }
 
@@ -385,7 +381,7 @@ background:
     grid-area: 1 / 1;
   }
 
-.nav-bar-container {
+  .nav-bar-container {
     margin: 0;
   }
 
@@ -404,11 +400,11 @@ background:
 }
 
 @media only screen and (max-width: 640px) {
-   .header-container {
+  .header-container {
     grid-template-columns: 100%;
     grid-template-rows: 60% 40%;
-    padding: 0 20px;
     height: 150px;
+    padding: 0 20px;
   }
 
   .card-container {
@@ -416,12 +412,11 @@ background:
   }
 
   .logo {
+    align-items: center;
     grid-area: 1 / 1;
     justify-content: center;
     margin: 0;
     padding: 0;
-    align-items: center;
-    justify-content: center;
   }
 
   .nav-bar-container {
@@ -433,9 +428,9 @@ background:
   }
 
   .admin {
-    grid-area: 2 / 1;
     cursor: pointer;
     display: flex;
+    grid-area: 2 / 1;
     margin: 0;
   }
 
@@ -455,8 +450,9 @@ background:
   .nav-icon {
     margin-right: 30px
   }
+  
   .shares {
-    padding: 10px 0 0 0;
     font-size: 1.5em;
+    padding: 10px 0 0 0;
   }
 }
